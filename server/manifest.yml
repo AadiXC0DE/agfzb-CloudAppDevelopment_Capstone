@@ -1,11 +1,11 @@
-applications:
-  - name: djangoapp
+  applications:
+  - name: dealerreiewapp
     routes:
-      - route: afsana37.us-south.cf.appdomain.cloud
+      - route: aadityachow.mybluemix.net
     memory: 128M
     buildpack: python_buildpack
-  - name: djangoapp-nginx
+  - name: dealerreiewapp-nginx
     routes:
-      - route: afsana37.us-south.cf.appdomain.cloud/static
+      - route: aadityachow.mybluemix.net/static
     memory: 128M
     buildpack: staticfile_buildpack
